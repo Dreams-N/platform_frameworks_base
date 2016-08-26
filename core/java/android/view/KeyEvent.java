@@ -1860,6 +1860,7 @@ public class KeyEvent extends InputEvent implements Parcelable {
             case KeyEvent.KEYCODE_STEM_1:
             case KeyEvent.KEYCODE_STEM_2:
             case KeyEvent.KEYCODE_STEM_3:
+            case KeyEvent.KEYCODE_HOME:
                 return true;
         }
         return false;
