@@ -3479,7 +3479,7 @@ public class TelephonyManager {
 
         Rlog.d(TAG, "setTelephonyProperty: success phoneId=" + phoneId +
         " property=" + property + " value: " + value);
-+        SystemProperties.set(property, value);
+        SystemProperties.set(property, value);
     }
 
     /**
